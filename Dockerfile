@@ -21,7 +21,7 @@ RUN npm install
 COPY . .
 
 # EXPOSE instruction to have it mapped by the docker daemon:
-# Expose port 3000 outside container
+# Expose port 4200 outside container
 EXPOSE 4200
 
 #define the command to run your app using CMD which defines your runtime.
